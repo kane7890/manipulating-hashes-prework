@@ -23,7 +23,7 @@ def first_challenge
   #   val[:favorite_icecream_flavors].delete_if {|flav| flav ==  #"strawberry"}
   #  end
   #end
-  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|flav| flav == "strawberry"
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|flav| flav == "strawberry"}
   #remember to return your newly altered contacts hash!
   contacts
 end
