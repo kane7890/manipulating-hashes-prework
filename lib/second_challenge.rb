@@ -1,3 +1,5 @@
+# require 'pry'
+
 def second_challenge
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
@@ -6,8 +8,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
+ # binding.pry
   #code your solution here!
-
+  grocery_flat = groceries.values.flatten
   
 
 end
