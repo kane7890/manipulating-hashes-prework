@@ -17,9 +17,10 @@ def first_challenge
 
   #your code here
   contacts.each do |key, val|
-        binding.pry
   
     if key == "Freddy Mercury"
+             binding.pry
+ 
      val[:favorite_icecream_flavors].delete_if? {|flav| flav == "strawberry"}
     end
   end
