@@ -20,7 +20,6 @@ def first_challenge
   
     if key == "Freddy Mercury"
              binding.pry
- 
      val[:favorite_icecream_flavors].delete_if {|flav| flav == "strawberry"}
     end
   end
