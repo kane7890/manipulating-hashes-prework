@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 def first_challenge
   contacts = {
@@ -18,7 +18,7 @@ def first_challenge
   #your code here
   contacts.each do |key, val|
     if key == "Freddy Mercury"
-      binding.pry
+ #     binding.pry
       val[:favorite_icecream_flavors].delete_if? {|flav| flav == "strawberry"}
     end
   end
