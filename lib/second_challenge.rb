@@ -10,7 +10,7 @@ def second_challenge
 
   binding.pry
   #code your solution here!
-  grocery_flat = groceries.values.
+  grocery_flat = groceries.values.flatten
   
 
 end
