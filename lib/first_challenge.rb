@@ -16,15 +16,14 @@ def first_challenge
   }
 
   #your code here
-  contacts.each do |key, val|
+#  contacts.each do |key, val|
   
-    if key == "Freddy Mercury"
-             binding.pry
-     val[:favorite_icecream_flavors].delete_if {|flav| flav == "strawberry"}
-    end
-  end
-  
-
+#    if key == "Freddy Mercury"
+ #            binding.pry
+  #   val[:favorite_icecream_flavors].delete_if {|flav| flav ==  #"strawberry"}
+  #  end
+  #end
+  contacts["Freddy Mercury"][:favorite_icecream_flavors].delete_if {|flav| flav == "strawberry"
   #remember to return your newly altered contacts hash!
   contacts
 end
